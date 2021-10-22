@@ -1,4 +1,5 @@
 -- init
+print('j')
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Crimson Craftwars", 5013109572)
 
