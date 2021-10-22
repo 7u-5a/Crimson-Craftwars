@@ -1,13 +1,8 @@
---[[
-Version Changes:
-Fixed notifications
---]]
-
 -- init
 print('v2')
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Crimson Craftwars", 5013109572)
-getfenv().notifications = true
+getfenv().notifications = false
 
 -- themes
 local themes = {
